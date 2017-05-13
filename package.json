@@ -2,6 +2,24 @@
   "name": "vs2017webpacktypescriptreact",
   "version": "1.0.0",
   "description": "YAB (yet another boiletplate), containing Visual Studio 2017, Webpack, TypeScript, and React.",
+  "keywords": [
+    "visual studio 2017",
+    "vs2017",
+    "webpack",
+    "web pack",
+    "webpack2",
+    "web pack 2",
+    "typescript",
+    "type script",
+    "react",
+    "reactjs",
+    "boilerplate",
+    "asp",
+    "asp.net",
+    "asp4",
+    "mvc",
+    "mvc5"
+  ],
   "main": "index.js",
   "scripts": {
     "start": "webpack --watch"
