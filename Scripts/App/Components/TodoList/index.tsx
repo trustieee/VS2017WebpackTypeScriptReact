@@ -1,11 +1,19 @@
-﻿import * as React from 'react';
+﻿import * as React from "react";
+import { TodoItem, ITodoItemProps } from "../TodoItem";
 
-export class TodoList extends React.Component<null, {}> {
+
+interface ITodoListProps {
+    items: ITodoItemProps[];
+}
+
+export class TodoList extends React.Component<ITodoListProps, any> {
     public render() {
         return (
-            <div>
-                Hello, from the TodoList Component!
-            </div>
+            <ul>
+                {this.props.items.map(i => {
+                    return <TodoItem name={i.name} />
+                })}
+            </ul>
         );
     }
 }

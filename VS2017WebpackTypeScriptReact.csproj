@@ -123,6 +123,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <TypeScriptCompile Include="Scripts\App\Components\TodoItem\index.tsx" />
     <TypeScriptCompile Include="Scripts\App\Components\TodoList\index.tsx" />
     <TypeScriptCompile Include="Scripts\App\index.tsx" />
   </ItemGroup>

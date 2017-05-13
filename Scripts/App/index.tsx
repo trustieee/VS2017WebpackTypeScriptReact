@@ -1,5 +1,15 @@
 ﻿import * as React from "react";
 import * as ReactDOM from "react-dom";
 import { TodoList } from "./Components/TodoList";
+import { ITodoItemProps } from "./Components/TodoItem";
 
-ReactDOM.render(<TodoList />, document.getElementById("root"));
+const todos: ITodoItemProps[] = [
+    {
+        name: "foo"
+    },
+    {
+        name: "bar"
+    }
+];
+
+ReactDOM.render(<TodoList items={todos} />, document.getElementById("root"));
